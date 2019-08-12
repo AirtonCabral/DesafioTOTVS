@@ -1,0 +1,54 @@
+.appSearch {
+  height: 400px;
+  background-color: #2b59de;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.appSearch .input-group {
+  max-width: 350px;
+  left: calc(50% - 160px);
+}
+
+.appSearch .input-group-append {
+  background-color: #fcdb67;
+  position: relative;
+  height: 40px;
+  top: -40px;
+  left: 300px;
+}
+
+.appSearch .input-group-append button {
+  border: none;
+  border-width: 65px;
+}
+
+.appSearch .input-group-append button:hover {
+  background-color: #d4ac22;
+}
+
+.appSearch .input-group-append button img {
+  height: 26px;
+  width: 50px;
+}
+
+.appSearch ::ng-deep input {
+  height: 40px;
+  border: none;
+  width: 350px;
+  color: #9E9E9E;
+  padding: 10px;
+}
+
+.appSearch ::ng-deep .completer-dropdown-holder {
+  width: 324px;
+}
+
+.appSearch ::ng-deep .completer-dropdown-holder:hover {
+  background-color: red;
+}
+/*# sourceMappingURL=search.component.css.map */

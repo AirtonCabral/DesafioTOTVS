@@ -1,0 +1,14 @@
+<div class="appSearch">
+	<div class="input-group">
+		<ng2-completer class="completeInput"
+			[(ngModel)]="captain" 
+			[datasource]="captains" 
+			[minSearchLength]="0">
+		</ng2-completer>
+		<div class="input-group-append">
+			<button class="btn btn-outline-secondary" type="button">
+				<img src="../../assets/icons/search.svg" alt="search" (click)="search(captain)">
+			</button>
+		</div>
+	</div>
+</div>

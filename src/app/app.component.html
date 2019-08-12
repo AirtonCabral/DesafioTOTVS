@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="">
+  <app-search (responseSearch)="reciverFeedback($event)" ></app-search>
+  <div class="col-sm-12 corteWaves">
+    <img src="../assets/icons/wave.svg" alt="">
+  </div>
+  <div class="container mainPage">
+    <p>Resultado da busca</p>
+    <div *ngFor="let item of selectedItems; index as i"  >
+      <div class="row accordion header">
+        <div class="col-sm-8">{{ item.name }}</div>
+        <div class="col-sm-4 detalhe" (click)='accordionRef(i)'>
+          Ver detalhe da ação
+        </div>
+      </div>
+      <div class="row accordion blockText" [ngClass]="openAccordion == i && accordionShow ? 'show' : 'hide' " >
+        <div class="col-sm-8">{{ item.text }}</div>
+        <div class="col-sm-4 buttonVerMais">
+          <button type="button" class="btn btn-warning" (click)='popUp()' >VER MAIS</button>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+  <app-modal *ngIf='modalShow' (responseModal)="reciverModalFeedback($event)" ></app-modal>
+</div>
+

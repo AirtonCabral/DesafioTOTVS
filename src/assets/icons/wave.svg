@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1280 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,0,-188)">
+        <path d="M0.826,256.033C0.826,256.033 185.489,169.364 388.587,202.929C591.685,236.495 770.261,288.457 972.761,275.196C1175.26,261.935 1282.11,197.239 1282.11,197.239" style="fill:none;stroke-width:6px;stroke:rgb(191,191,191);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0,-185)">
+        <g id="Camada1">
+            <path d="M0.826,256.033C0.826,256.033 185.489,169.364 388.587,202.929C591.685,236.495 770.261,288.457 972.761,275.196C1175.26,261.935 1282.11,197.239 1282.11,197.239L1278.67,304.527L0.239,304.527L0.826,256.033Z" style="fill:white;"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,0,11)">
+        <g id="Camada2">
+            <rect x="-3.148" y="86.064" width="1282.84" height="66.885" style="fill:white;"/>
+        </g>
+    </g>
+</svg>

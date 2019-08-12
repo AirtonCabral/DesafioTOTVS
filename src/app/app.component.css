@@ -1,0 +1,37 @@
+.corteWaves {
+  position: relative;
+  top: -105px;
+  padding: 0px;
+}
+
+.mainPage {
+  color: #a5a5a5;
+  max-width: 860px;
+}
+
+.mainPage .accordion {
+  padding: 15px;
+  border: 1px solid #808080b5;
+}
+
+.mainPage .accordion .detalhe {
+  color: #b79ce9;
+}
+
+.mainPage .accordion .buttonVerMais {
+  text-align: center;
+}
+
+.mainPage .accordion .buttonVerMais button {
+  color: white !important;
+  margin-top: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline-box;
+}
+/*# sourceMappingURL=app.component.css.map */

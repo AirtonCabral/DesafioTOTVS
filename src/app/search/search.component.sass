@@ -1,0 +1,34 @@
+.appSearch 
+	height: 400px
+	background-color: #2b59de
+	display: flex
+	align-items: center
+	.input-group
+		max-width: 350px
+		left: calc(50% - 160px)
+	.input-group-append
+		background-color: #fcdb67
+		position: relative
+		height: 40px
+		top: -40px
+		left: 300px
+		button
+			border: none
+    	width: 65px
+			&:hover
+				background-color: #d4ac22
+			img
+				height: 26px
+				width: 50px
+	::ng-deep input
+		height: 40px
+		border: none
+		width: 350px
+		color: #9E9E9E
+		padding: 10px
+	::ng-deep .completer-dropdown-holder
+		width: 324px
+		&:hover
+			background-color: red
+
+			
